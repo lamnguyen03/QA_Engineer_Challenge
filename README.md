@@ -7,13 +7,15 @@
 4. Install maven, you can follow this tutorial: https://howtodoinjava.com/maven/how-to-install-maven-on-windows/
 5. Open the terminal and Run
    
-   to run Test script with FireFox
+to run Test script with FireFox
 ``` mvn clean verify -Dwebdriver=firefox ```
 
 or Chrome
+
 ```mvn clean verify -Dwebdriver=chrome```
 
 or BrowserStack
+
 ```mvn clean verify -Dwebdriver=browserstack```
 
  to run the project which browser you want.
